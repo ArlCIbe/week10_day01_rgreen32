@@ -1,0 +1,20 @@
+[
+  {
+    "image_url": "https://images.unsplash.com/photo-1606364394718-93237e7a292c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDY0MjV8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDY0MDM2NjJ8&ixlib=rb-4.0.3&q=80&w=1080",
+    "location_name": "Smoky Mountain, Tennessee, USA",
+    "latitude": 36.18369,
+    "longitude": -84.402711
+  },
+  {
+    "image_url": "https://images.unsplash.com/photo-1515825838458-f2a94b20105a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDY0MjV8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDY1MDY4NjN8&ixlib=rb-4.0.3&q=80&w=1080",
+    "location_name": "Yosemite Valley, United States",
+    "latitude": 37.7455701,
+    "longitude": -119.5936038
+  },
+  {
+    "image_url": "https://images.unsplash.com/photo-1607024301817-3bbc081205cd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDY0MjV8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDY1MDc5MjF8&ixlib=rb-4.0.3&q=80&w=1080",
+    "location_name": "Lanzada, Prowincja Sondrio, Włochy",
+    "latitude": 46.26958,
+    "longitude": 9.872099
+  }
+]
