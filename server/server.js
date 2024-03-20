@@ -1,10 +1,15 @@
-
 const express = require('express');
-const app = express();
+const cors = require('cors')
 
+const app = express();
+app.use(cors())
+
+
+const APIKEY = ""
+const URL = "https://api.unsplash.com/photos/random/?query=landscape&count=10&client_id=" + APIKEY
 
 app.get('/', async (req, res) => {
-    var response = await fetch("https://api.unsplash.com/photos/random/?client_id=863c4b2810cf186dbf96542bc49f7824eb086019d426ddd391ea0f7941008b8f&query=landscape&count=3");
+    var response = await fetch(URL);
     var data = await response.json();
 
     var imageData = data.map((image) => {
@@ -15,16 +20,13 @@ app.get('/', async (req, res) => {
             longitude: image.location.position.longitude
         }
     })
-    //  var imageData = {
-    //     image_url: data[0]?.urls?.regular,
-    //     location_name: data[0]?.location?.name,
-    //     latitude: data[0]?.location?.position?.latitude,
-    //     longitude: data[0]?.location?.position?.longitude
-    //  }
+
+    //Part 3: Filter the nulls out of imageData
+
 
     res.json(imageData);
 });
 
 app.listen(3001, () => {
-    console.log('Example app listening on port 3001!');
+    console.log('Worldview Api listening on port 3001!');
 });

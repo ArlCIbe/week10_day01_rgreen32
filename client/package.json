@@ -12,6 +12,7 @@
     "react-bootstrap": "^2.10.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
+    "react-sparkle": "^2.0.0",
     "three": "^0.160.1",
     "three-globe": "^2.30.0",
     "three-glow-mesh": "^0.1.2",
